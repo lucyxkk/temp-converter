@@ -3,6 +3,24 @@ body {
     background-color: #94b098;
 }
 
+.container{
+    background-color: #668069;
+    width: 500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(35, 69, 49, 1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(35, 69, 49, 1);
+    box-shadow: 0px 0px 15px 0px rgba(35, 69, 49, 1);
+    
+}
+
+h1{
+    padding-top: 40px;
+}
+
 h1, h3, .form, footer {
     text-align: center;
 }
@@ -20,27 +38,12 @@ input {
     border-radius: 8px;
     border-width: 2px;
     border-style: solid;
-    border-color: #668069;
-    box-shadow: 0px 0px 5px rgba(66,66,66,.40);
+    border-color: #576f59;
     background-color: #94b098;
 
-}
-
-button {
-    margin-top: 15px;
-    width: 120px;
-    height: 40px;
-    border-radius: 8px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #668069;
-    box-shadow: 0px 0px 5px rgba(66,66,66,.40);
-    background-color: #94b098;
-    color: dimgray;
 }
 
 footer {
-    margin-top: 130px;
-    color: #d7a7d9;
-}
+    margin-top: 150px;
+    color: dimgray;
 
