@@ -9,8 +9,8 @@ function convertCtoF(e) {
     const num = e.target.value;
     let result = "";
 
-    if (isNaN(num)) {
-        alert('Not a number')
+    if (celcius.value == "" ) {
+        fahrenheit.value = "";
     } else {
         result = ((num*1.8)+32);
     }
@@ -22,8 +22,8 @@ function convertFtoC(e) {
     const num1 = e.target.value;
     let result1 = "";
 
-    if (isNaN(num1)) {
-        alert('Not a number')
+    if (fahrenheit.value == "") {
+        celcius.value = "";
     } else {
         result1 = ((num1-32)*(5/9));
     }
